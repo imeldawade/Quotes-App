@@ -1,0 +1,47 @@
+<!-- <body>
+
+  <div class="allContents container-fluid">
+    <div class="row">
+      <div id="allQuotes">
+
+        <div class="row1" *ngFor="let quotes of quotes  let i = index">
+
+          <button class="btn btn-info" id="right" (click)= 'toggleInsights(i)'>Insights</button>
+          <br>
+          <i class="fa fa-quote-left" aria-hidden="true"></i>
+  
+          <blockquote>
+            <div id="quote">
+              {{ quotes.quote }}
+              <br>
+              <i><strong class="text-muted">_{{quotes.author}}</strong></i>
+            </div>
+          </blockquote>
+  
+          
+  
+          <app-quote-insights *ngIf = 'quotes.showInsights' [quotin]='quotes' (isDeleted)= "quoteDelete($event, i)"></app-quote-insights>
+          
+  
+        </div>
+          
+
+      </div>
+    </div>
+
+    
+        
+  </div>
+
+
+</body>
+
+<section id="two">
+
+  <div id="quote-form">
+      
+    <app-quote-form (addQuote)='addNewQuote($event)'></app-quote-form>
+  
+  </div>
+
+</section> -->
