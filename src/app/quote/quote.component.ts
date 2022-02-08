@@ -16,26 +16,26 @@ export class QuoteComponent implements OnInit {
     new Quotes (3, 'Take chances make mistakes. Thats how you grow. PAin nourishes your courage.You have to fail in order to practise being brave.', 'Pendo C.S', 'MARY Tyler', new Date(2021,11,22))
   ]
 
-  // toggleInsights(index: any) {
-  //   this.quotes[index].showInsights = !this.quotes[index].showInsights;
-  // }
+  toggleInsights(index: any) {
+    this.quotes[index].showInsights = !this.quotes[index].showInsights;
+  }
 
-  // quoteDelete(isDeleted: boolean, index: any){
-  //   if (isDeleted){
-  //     let toDelete = confirm('Do you want the quote deleted?');
+  quoteDelete(isDeleted: boolean, index: any){
+    if (isDeleted){
+      let toDelete = confirm('Do you want the quote deleted?');
 
-  //     if(toDelete){
-  //       this.quotes.splice(index, 1);
-  //     }
-  //   }
-  // }
+      if(toDelete){
+        this.quotes.splice(index, 1);
+      }
+    }
+  }
 
-  // addNewQuote(quote: any) {
-  //   let quoteLength = this.quotes.length;
-  //   quote.id = quoteLength++;
-  //   quote.postDate = new Date(quote.postDate);
-  //   this.quotes.push(quote);
-  // }
+  addNewQuote(quote: any) {
+    let quoteLength = this.quotes.length;
+    quote.id = quoteLength++;
+    quote.postDate = new Date(quote.postDate);
+    this.quotes.push(quote);
+  }
 
 
   constructor() { }
