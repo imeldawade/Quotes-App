@@ -1,4 +1,4 @@
-/* #allQuotes {
+#allQuotes {
   display: flex;
   justify-content: space-around;
 }
@@ -25,4 +25,4 @@ button:hover {
 
 section#two {
   padding: 1rem;
-} */
+}
