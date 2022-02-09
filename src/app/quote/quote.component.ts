@@ -12,8 +12,8 @@ export class QuoteComponent implements OnInit {
   
   quotes: Quotes[] = [
     new Quotes (1, 'Numbing the pain for a while will make it worse when you finally feel it', 'Imelda wade', 'J.K. Rowling', new Date(2021,1,6)),
-    new Quotes (2, 'Keep smiling... and one day life will ger tired of upsetting you.', 'Shania', 'NITYA Prakash', new Date(2022,1,10)),
-    new Quotes (3, 'Take chances make mistakes. Thats how you grow. PAin nourishes your courage.You have to fail in order to practise being brave.', 'Pendo C.S', 'MARY Tyler', new Date(2021,11,22))
+    new Quotes (2, 'Keep smiling... and one day life will get tired of upsetting you.', 'Shania', 'NITYA Prakash', new Date(2022,1,10)),
+    new Quotes (3, 'Take chances make mistakes. Thats how you grow. Pain nourishes your courage.You have to fail in order to practise being brave.', 'Pendo C.S', 'MARY Tyler', new Date(2021,11,22))
   ]
 
   toggleInsights(index: any) {
