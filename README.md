@@ -12,7 +12,7 @@
 Quote App
 
 ## Description
-This is a Pizza web app where you can choose a pizza with additions to your own liking, and at affordable prices.
+ A site where users can create quotes, make votes and delete those that they feel may not be appealing to them.
 
 ## Author
 * Imelda Wade
